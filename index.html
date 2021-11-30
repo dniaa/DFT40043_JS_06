@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Grade</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1>GRADE</h1>
+
+
+    <table border="2">
+
+        <form>
+            <tr>
+                <th>SUBJECT</th>
+                <th>MARK</th>
+                <th>GRADE</th>
+            </tr>
+
+            <tr align="center">
+                <td>BM 1</td>
+                <td> <input type="number" name="mark" id="mark" onchange="gred(this.value,'BM1')" onkeyup="gred(this.value,'BM1')" required></td>
+                <td width="8%" align="center" id="BM1"></td>
+            </tr>
+
+            <tr align="center">
+                <td>BM 2</td>
+                <td> <input type="number" name="mark2" id="mark2" onchange="gred(this.value,'BM2')" onkeyup="gred(this.value,'BM2')" required /></td>
+                <td width="8%" align="center" id="BM2"></td>
+            </tr>
+
+            <tr align="center">
+                <td>BI</td>
+                <td> <input type="number" name="mark3" id="mark3" onchange="gred(this.value,'BI')" onkeyup="gred(this.value,'BI')" required /></td>
+                <td width="8%" align="center" id="BI"></td>
+            </tr>
+
+            <tr align="center">
+                <td>SCIENCE</td>
+                <td> <input type="number" name="mark4" id="mark4" onchange="gred(this.value,'SC')" onkeyup="gred(this.value,'SC')" required /></td>
+                <td width="8%" align="center" id="SC"></td>
+            </tr>
+
+            <tr align="center">
+                <td>MATH</td>
+                <td> <input type="number" name="mark5" id="mark5" onchange="gred(this.value,'MT')" onkeyup="gred(this.value,'MT')" required /></td>
+                <td width="8%" align="center" id="MT"></td>
+            </tr>
+
+        </form>
+    </table>
+
+    <br><br><br>
+
+</body>
+
+</html>
